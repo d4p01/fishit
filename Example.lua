@@ -15,7 +15,7 @@ do
     if ok then
         WindUI = result
     else 
-        WindUI = loadstring(game:HttpGet("https://github.com/Footagesus/WindUI/releases/latest/download/main.lua"))()
+        WindUI = loadstring(game:HttpGet("https://github.com/d4p01/fishit/releases/latest/download/main.lua"))()
     end
 end
 
@@ -23,7 +23,7 @@ end
 -- */  Window  /* --
 local Window = WindUI:CreateWindow({
     Title = ".ftgs hub  |  WindUI Example",
-    Author = "by .ftgs • Footagesus",
+    Author = "by .ftgs • Daptzy",
     Folder = "ftgshub",
     NewElements = true,
     
