@@ -149,7 +149,7 @@ local Window = WindUI:CreateWindow({
     -- KeySystem = { -- 
     --     -- Key = { "1234", "5678" },  
     --     Note = "Example Key System. With platoboost, etc.",
-    --     -- URL = "https://github.com/Footagesus/WindUI",
+    --     -- URL = "https://github.com/d4p01/fishit",
     --     -- Thumbnail = {
     --     --     Image = "rbxassetid://",
     --     --     Title = "Thumbnail",
@@ -712,7 +712,7 @@ Tabs.Config:Paragraph({
             Icon = "copy",
             Variant = "Tertiary",
             Callback = function()
-                setclipboard("https://github.com/Footagesus/WindUI")
+                setclipboard("https://github.com/d4p01/fishit")
                 WindUI:Notify({
                     Title = "Copied!",
                     Content = "GitHub link copied to clipboard",
